@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Mágica - UACM</title>
+    
+    <!-- Fuentes de Google para que se vea bonito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Fredoka:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- CONEXIÓN CON TU DISEÑO DE PORTADA -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Contenedor para las burbujas mágicas (Lo usa el archivo index.js) -->
+    <div id="bubblesContainer"></div>
+
+    <!-- Título Principal Animado -->
+    <section class="hero">
+        <div class="dancing-title">
+            <span class="letter">B</span>
+            <span class="letter">I</span>
+            <span class="letter">B</span>
+            <span class="letter">L</span>
+            <span class="letter">I</span>
+            <span class="letter">O</span>
+            <span class="letter">T</span>
+            <span class="letter">E</span>
+            <span class="letter">C</span>
+            <span class="letter">A</span>
+        </div>
+        <p class="subtitle">
+            <span class="emoji-float">📚</span> Donde las letras cobran vida <span class="emoji-float">✨</span>
+        </p>
+    </section>
+
+    <!-- Caja de Información Personal -->
+    <div class="info-box">
+        <h2>Herlinda Jacqueline Garay Perez</h2>
+        <p>📧 jacqueline.garay@estudiantxs.uacm.edu.mx</p>
+    </div>
+
+    <!-- Título de la sección de botones -->
+    <div class="section-title">
+        <div class="bounce-text">
+            <span>G</span><span>É</span><span>N</span><span>E</span><span>R</span><span>O</span><span>S</span>
+        </div>
+    </div>
+
+    <!-- MENÚ PRINCIPAL: Botones que llevan a tus otras páginas -->
+    <div class="books-container">
+        
+        <!-- Botón Aventura -->
+        <a href="Aventura.html" style="text-decoration: none;">
+            <div class="book-box">
+                <span class="book-icon">🌟</span>
+                <h3>Aventura</h3>
+                <p>Viajes épicos y acción.</p>
+            </div>
+        </a>
+
+        <!-- Botón Drama -->
+        <a href="Drama.html" style="text-decoration: none;">
+            <div class="book-box">
+                <span class="book-icon">🎭</span>
+                <h3>Drama</h3>
+                <p>Emociones profundas.</p>
+            </div>
+        </a>
+
+        <!-- Botón Fantasía (Recuerda: El archivo se llama Fantasia.html sin acento) -->
+        <a href="Fantasia.html" style="text-decoration: none;">
+            <div class="book-box">
+                <span class="book-icon">🐉</span>
+                <h3>Fantasía</h3>
+                <p>Mundos mágicos.</p>
+            </div>
+        </a>
+
+        <!-- Botón Arte -->
+        <a href="Arte.html" style="text-decoration: none;">
+            <div class="book-box">
+                <span class="book-icon">🎨</span>
+                <h3>Arte</h3>
+                <p>Creatividad pura.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Sección de Redes Sociales (UACM) y Contacto -->
+    <section class="social-area">
+        <h2>✨ COMUNIDAD UACM ✨</h2>
+        <div class="icons-row">
+            <!-- Redes Oficiales UACM -->
+            <a href="https://www.facebook.com/UACMOficial" target="_blank" class="icon-bubble" title="Facebook">🔵</a>
+            <a href="https://twitter.com/UACM" target="_blank" class="icon-bubble" title="Twitter">🐦</a>
+            <a href="https://www.instagram.com/uacmoficial" target="_blank" class="icon-bubble" title="Instagram">📸</a>
+            <a href="https://www.youtube.com/user/UACMvideoteca" target="_blank" class="icon-bubble" title="YouTube">▶️</a>
+            
+            <!-- Tu página de contacto -->
+            <a href="contactame.html" class="icon-bubble" title="Escríbeme">✉️</a>
+        </div>
+
+        <a href="contactame.html" style="text-decoration: none;">
+            <button class="mega-button">👋 IR A CONTACTO</button>
+        </a>
+    </section>
+
+    <footer>
+        <p>✨ © 2025 Biblioteca Mágica | Proyecto Final ✨</p>
+    </footer>
+
+    <!-- CONEXIÓN CON LA MAGIA (JAVASCRIPT) -->
+    <!-- Esto hace que funcionen las burbujas y el movimiento -->
+    <script src="index.js"></script>
+</body>
+</html>
